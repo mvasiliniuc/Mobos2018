@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0829E5A32033374A004668A9 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0829E5A22033374A004668A9 /* background.png */; };
+		0833EABA2039E51B004BF104 /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 0833EAB72039E51B004BF104 /* launch.png */; };
+		0833EABB2039E51B004BF104 /* attackerIcon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0833EAB82039E51B004BF104 /* attackerIcon.jpg */; };
+		0833EABC2039E51B004BF104 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 0833EAB92039E51B004BF104 /* background.png */; };
+		088CB55D202A5462007783E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088CB55C202A5462007783E5 /* AppDelegate.swift */; };
+		088CB55F202A5462007783E5 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088CB55E202A5462007783E5 /* FirstViewController.swift */; };
+		088CB564202A5462007783E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088CB562202A5462007783E5 /* Main.storyboard */; };
+		088CB566202A5462007783E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 088CB565202A5462007783E5 /* Assets.xcassets */; };
+		088CB569202A5462007783E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 088CB567202A5462007783E5 /* LaunchScreen.storyboard */; };
+		08D568652031F5B400B09B58 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D568642031F5B400B09B58 /* KeyboardViewController.swift */; };
+		08D568692031F5B400B09B58 /* MobosKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 08D568622031F5B400B09B58 /* MobosKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		08D5687720320C6000B09B58 /* MobosKeyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08D5687620320C6000B09B58 /* MobosKeyboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08D568672031F5B400B09B58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088CB551202A5462007783E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08D568612031F5B400B09B58;
+			remoteInfo = MobosKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		08D5686D2031F5B400B09B58 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				08D568692031F5B400B09B58 /* MobosKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0829E5A22033374A004668A9 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		0833EAB72039E51B004BF104 /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		0833EAB82039E51B004BF104 /* attackerIcon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = attackerIcon.jpg; sourceTree = "<group>"; };
+		0833EAB92039E51B004BF104 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		088CB559202A5462007783E5 /* Mobos2018_Attacker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobos2018_Attacker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		088CB55C202A5462007783E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		088CB55E202A5462007783E5 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		088CB563202A5462007783E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		088CB565202A5462007783E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		088CB568202A5462007783E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		088CB56A202A5462007783E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D568622031F5B400B09B58 /* MobosKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MobosKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		08D568642031F5B400B09B58 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		08D568662031F5B400B09B58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D5687620320C6000B09B58 /* MobosKeyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MobosKeyboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088CB556202A5462007783E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D5685F2031F5B400B09B58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0833EAB32039E3EE004BF104 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0829E5A22033374A004668A9 /* background.png */,
+				08D568662031F5B400B09B58 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0833EAB42039E447004BF104 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0833EAB82039E51B004BF104 /* attackerIcon.jpg */,
+				0833EAB92039E51B004BF104 /* background.png */,
+				0833EAB72039E51B004BF104 /* launch.png */,
+				088CB565202A5462007783E5 /* Assets.xcassets */,
+				088CB56A202A5462007783E5 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0833EAB52039E4B8004BF104 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				088CB562202A5462007783E5 /* Main.storyboard */,
+				088CB567202A5462007783E5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		088CB550202A5462007783E5 = {
+			isa = PBXGroup;
+			children = (
+				088CB55B202A5462007783E5 /* Mobos2018_attacker */,
+				08D568632031F5B400B09B58 /* Mobos2018_keyboard */,
+				088CB55A202A5462007783E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		088CB55A202A5462007783E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088CB559202A5462007783E5 /* Mobos2018_Attacker.app */,
+				08D568622031F5B400B09B58 /* MobosKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		088CB55B202A5462007783E5 /* Mobos2018_attacker */ = {
+			isa = PBXGroup;
+			children = (
+				088CB55C202A5462007783E5 /* AppDelegate.swift */,
+				088CB55E202A5462007783E5 /* FirstViewController.swift */,
+				0833EAB52039E4B8004BF104 /* Storyboards */,
+				0833EAB42039E447004BF104 /* SupportingFiles */,
+			);
+			path = Mobos2018_attacker;
+			sourceTree = "<group>";
+		};
+		08D568632031F5B400B09B58 /* Mobos2018_keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				08D568642031F5B400B09B58 /* KeyboardViewController.swift */,
+				08D5687620320C6000B09B58 /* MobosKeyboard.storyboard */,
+				0833EAB32039E3EE004BF104 /* SupportingFiles */,
+			);
+			path = Mobos2018_keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088CB558202A5462007783E5 /* Mobos2018_Attacker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088CB56D202A5462007783E5 /* Build configuration list for PBXNativeTarget "Mobos2018_Attacker" */;
+			buildPhases = (
+				088CB555202A5462007783E5 /* Sources */,
+				088CB556202A5462007783E5 /* Frameworks */,
+				088CB557202A5462007783E5 /* Resources */,
+				08D5686D2031F5B400B09B58 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08D568682031F5B400B09B58 /* PBXTargetDependency */,
+			);
+			name = Mobos2018_Attacker;
+			productName = Mobos_Attacker;
+			productReference = 088CB559202A5462007783E5 /* Mobos2018_Attacker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08D568612031F5B400B09B58 /* MobosKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08D5686C2031F5B400B09B58 /* Build configuration list for PBXNativeTarget "MobosKeyboard" */;
+			buildPhases = (
+				08D5685E2031F5B400B09B58 /* Sources */,
+				08D5685F2031F5B400B09B58 /* Frameworks */,
+				08D568602031F5B400B09B58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobosKeyboard;
+			productName = MobosKeyboard;
+			productReference = 08D568622031F5B400B09B58 /* MobosKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088CB551202A5462007783E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = NoOneKnows;
+				TargetAttributes = {
+					088CB558202A5462007783E5 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					08D568612031F5B400B09B58 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 088CB554202A5462007783E5 /* Build configuration list for PBXProject "Mobos2018_attacker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 088CB550202A5462007783E5;
+			productRefGroup = 088CB55A202A5462007783E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088CB558202A5462007783E5 /* Mobos2018_Attacker */,
+				08D568612031F5B400B09B58 /* MobosKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088CB557202A5462007783E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0833EABA2039E51B004BF104 /* launch.png in Resources */,
+				0833EABC2039E51B004BF104 /* background.png in Resources */,
+				088CB569202A5462007783E5 /* LaunchScreen.storyboard in Resources */,
+				088CB566202A5462007783E5 /* Assets.xcassets in Resources */,
+				0833EABB2039E51B004BF104 /* attackerIcon.jpg in Resources */,
+				088CB564202A5462007783E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D568602031F5B400B09B58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0829E5A32033374A004668A9 /* background.png in Resources */,
+				08D5687720320C6000B09B58 /* MobosKeyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088CB555202A5462007783E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				088CB55D202A5462007783E5 /* AppDelegate.swift in Sources */,
+				088CB55F202A5462007783E5 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08D5685E2031F5B400B09B58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D568652031F5B400B09B58 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08D568682031F5B400B09B58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08D568612031F5B400B09B58 /* MobosKeyboard */;
+			targetProxy = 08D568672031F5B400B09B58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		088CB562202A5462007783E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088CB563202A5462007783E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		088CB567202A5462007783E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				088CB568202A5462007783E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		088CB56B202A5462007783E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		088CB56C202A5462007783E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088CB56E202A5462007783E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Mobos2018_Attacker/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NOK.Mobos-Attacker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		088CB56F202A5462007783E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Mobos2018_Attacker/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NOK.Mobos-Attacker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08D5686A2031F5B400B09B58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Mobos2018_Keyboard/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NOK.Mobos-Attacker.MobosKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08D5686B2031F5B400B09B58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Mobos2018_Keyboard/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "NOK.Mobos-Attacker.MobosKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088CB554202A5462007783E5 /* Build configuration list for PBXProject "Mobos2018_attacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088CB56B202A5462007783E5 /* Debug */,
+				088CB56C202A5462007783E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088CB56D202A5462007783E5 /* Build configuration list for PBXNativeTarget "Mobos2018_Attacker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088CB56E202A5462007783E5 /* Debug */,
+				088CB56F202A5462007783E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08D5686C2031F5B400B09B58 /* Build configuration list for PBXNativeTarget "MobosKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08D5686A2031F5B400B09B58 /* Debug */,
+				08D5686B2031F5B400B09B58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 088CB551202A5462007783E5 /* Project object */;
+}
