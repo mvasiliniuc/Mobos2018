@@ -20,7 +20,7 @@ The [Mobos2018_app](https://github.com/mvasiliniuc/Mobos2018/tree/master/Samples
 * Screen capture by Task-Switcher
 * Keyboard logging, Autocomplete
 * General Pasteboard
-It also demonstrates State Preservation but without the suggested mitigation: encryption.
+* It also demonstrates State Preservation but without the suggested mitigation: encryption.
 
 The [Mobos2018_attacker](https://github.com/mvasiliniuc/Mobos2018/tree/master/Samples/Mobos2018_attacker) contains the sample app for keyboard extensions and pasteboard "observers".
 
