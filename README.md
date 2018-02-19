@@ -22,11 +22,11 @@ The [Mobos2018_app](https://github.com/mvasiliniuc/Mobos2018/tree/master/Samples
 * General Pasteboard
 * It also demonstrates State Preservation but without the suggested mitigation: encryption.
 
-The [Mobos2018_attacker](https://github.com/mvasiliniuc/Mobos2018/tree/master/Samples/Mobos2018_attacker) contains the sample app for keyboard extensions and pasteboard "observers".
+The [Mobos2018_attacker](https://github.com/mvasiliniuc/Mobos2018/tree/master/Samples/Mobos2018_attacker) contains the sample app for keyboard extensions and pasteboard "observer".
 
 ### Resources
 
-All material used in the making of the presentation can be found in [Resources](https://github.com/mvasiliniuc/Mobos2018/blob/master/Resources.md).
+All material used in the making of the presentation (and much more!) can be found in [Resources](https://github.com/mvasiliniuc/Mobos2018/blob/master/Resources.md). This page can be a starting point if you want to research vulnerabilities in iOS applications.
 
 <br>
 
