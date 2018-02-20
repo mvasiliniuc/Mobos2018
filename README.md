@@ -1,6 +1,6 @@
 # Mobos2018
 
-This repositories contains my presentation for Mobos 2018 together with the material that supports it.
+This repository contains my presentation for Mobos 2018 together with the material that supports it.
 
 [Mobos](http://romobos.com/) is a conference focused on Mobile Technologies organized in [Cluj-Napoca Romania](https://en.wikipedia.org/wiki/Cluj-Napoca). The conference took place on 15th February 2018.
 
